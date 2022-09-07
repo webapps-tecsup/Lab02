@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Sofia|Roboto&effect=shadow-multiple&display=swap");
+
+.container {
+  width: 800px;
+  padding-top: 15px;
+  margin: auto;
+  margin-top: 50px;
+  box-shadow: 0px 0px 1px 1px;
+  background-color: whitesmoke;
+}
+.squares {
+  width: 240px;
+  height: 30px;
+  background: rgb(185, 139, 226);
+  margin-left: 70%;
+  margin-bottom: 15px;
+}
+h1 {
+  font-family: "Sofia", sans-serif fantasy;
+  font-size: 90px;
+  text-align: center;
+  color: #132ac0;
+  margin-top: -1.7px;
+}
+h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 35px;
+  color: #11207f;
+}
+.Avatar {
+  width: 220px;
+  height: 320px;
+  margin-left: 65px;
+  margin-top: -110px;
+  border: 20px solid rgb(235, 246, 246);
+}
+.Avatar:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+.datos i {
+  color: rgb(17, 93, 143);
+  margin-left: 20px;
+  margin-right: 7px;
+}
+.hobbies {
+  display: flex;
+  justify-content: center;
+}
+.hobbies img {
+  width: 150px;
+  height: 170px;
+  border-radius: 50%;
+  margin: 15px;
+  opacity: 0.8;
+}
+.hobbies img:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+.hobbies p {
+  text-align: center;
+  font-size: 23px;
+  margin: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: oblique;
+  font-weight: bolder;
+}
+.section {
+  display: flex;
+}
+.subsection1 {
+  margin-top: 70px;
+  background: rgb(185, 139, 226);
+  width: 400px;
+  height: 450px;
+  padding-right: -20px;
+}
+.subsection1 img {
+  position: absolute;
+}
+.subsection1 p {
+  font-family: Chalkduster, fantasy;
+  text-align: center;
+  padding-top: 210px;
+  font-size: 60px;
+  font-weight: 600;
+}
+ul img {
+  width: 30px;
+}
+.subsection2 {
+  margin: 25px;
+}
+.subsection3 {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-around;
+  background: rgb(185, 139, 226);
+}
+.subsection3 p {
+  font-size: 16px;
+}
+.subsection3 img {
+  width: 24px;
+}
